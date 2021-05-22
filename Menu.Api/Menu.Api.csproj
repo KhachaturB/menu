@@ -15,6 +15,11 @@
           <command>scp -r ${TargetDir} khacho@84.252.142.16:projects/menu/build/bin</command>
           <externalConsole>True</externalConsole>
         </Command>
+        <Command>
+          <type>AfterBuild</type>
+          <command>ssh khacho@84.252.142.16 'pm2 restart Menu'</command>
+          <externalConsole>True</externalConsole>
+        </Command>
       </CustomCommands>
     </CustomCommands>
   </PropertyGroup>

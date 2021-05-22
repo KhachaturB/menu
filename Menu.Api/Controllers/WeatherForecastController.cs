@@ -44,7 +44,7 @@ namespace Menu.Api.Controllers
         {
             return new TestDto
             {
-                Name = "Olololo",
+                Name = "Artemka kokoxa",
                 Url = "https://sun1-23.userapi.com/impf/c624316/v624316949/2a15c/zdLxLW5PlSQ.jpg?size=604x594&quality=96&sign=e779e94e069903e2858d340d6a40f2e5&type=album"
             };
         }
