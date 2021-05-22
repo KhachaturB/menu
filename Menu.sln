@@ -22,4 +22,7 @@ Global
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0D9C12C-058A-4132-87FE-4D4DD6FE5847}
 	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		outputpath = khacho@84.201.177.175%projects/menu/build/bin
+	EndGlobalSection
 EndGlobal
